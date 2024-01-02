@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
+    /* margin: 0;
+    padding: 0; */
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+   background-color: rgb(249, 243, 249);
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    list-style:none;
+    background-color: maroon;
+    padding: 1%;
+    border-radius: 2px;
+    /* margin: 1%; */
+    font-family: 'Times New Roman', Times, serif;
+}
+li a{
+    color: #fff;
+    text-decoration: solid;
+}
+li a:hover{
+    color: rgb(193, 139, 244);
+}
+.logo li a{
+    color:deepskyblue;
+    /* padding-left: 50%; */
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+    position: relative;
+    font-size: xx-large;
+    padding: right 3px;
+   }
+   .logo li img{
+    position: relative;
+    padding-left: 1%;
+   }
+
+.main{
+    display: inline;
+}
+/* ================== */
+body{
+    background-color:maroon;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    padding: 5%;
+    
+}
+.container{
+    width: 10%;
+    margin: 20px ;
+    color: white;
+}
+.contact-box{
+    background:black;
+    display: flex;
+    color: white;
+}
+.contact-left{
+    flex-basis: 50%;
+    padding: 30px 30px;
+    /* background: linear-gradient(#F86594,#FFCAA6); */
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 30px;
+    background: linear-gradient(gray,#FFCAA6);
+    color:black;
+    font-weight: bold;
+}
+h1{
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+/* .container p{
+    margin-bottom: 5px;
+} */
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    color: white;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+    color: white;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 3px;
+    display: block;
+    color: white;
+}
+button{
+    background:#1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.contact-left h3{
+    color: blue;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+/* ======================================== */
+/* .footer{
+    padding: 5%;
+    background-color: darkmagenta;
+    
+ } */
+ .social-menu ul{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        padding-left:30% ;
+        margin: 0;
+        transform: translate(-50%, -50%);
+        display: flex;
+    }
+    
+    .social-menu ul li{
+        list-style: none;
+        margin: 0 15px;
+    }
+    
+    .social-menu ul li .fa{
+        font-size: 30px;
+        line-height: 60px;
+        transition: .3s;
+        color: #000;
+    }
+    
+    .social-menu ul li .fa:hover{
+        color: #fff;
+    }
+    
+    .social-menu ul li a{
+        position: relative;
+        display: block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #fff;
+        text-align: center;
+        transition: .6s;
+        box-shadow: 0 5px 4px rgba(0,0,0,.5);
+    }
+    
+    .social-menu ul li a:hover{
+        transform: translate(0, -10%);
+    }
+    
+    .social-menu ul li:nth-child(1) a:hover{
+        background-color: red;
+    }
+    .social-menu ul li:nth-child(2) a:hover{
+        background-color:#005cbf;
+    }
+    .social-menu ul li:nth-child(3) a:hover{
+        background-color: blue;
+    }
+    .social-menu ul li:nth-child(4) a:hover{
+        background-color: orangered;
+    }
+    .contact .card1 p{
+        border-radius: 10px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+        width: 600px;
+        height: 260ssspx;
+        background-color: #ffffff;
+        padding: 10px 30px 40px;
+        text-align: center;
+      }
+      .social-menu h1{
+     padding-top: 20%;
+      }
+      .Description p{
+        padding-top: 5%;
+        font-size: large;
+        padding-bottom: 2%;
+      }

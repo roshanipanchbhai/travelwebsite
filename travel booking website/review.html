@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="review.css">
+  <title>Star rating using pure CSS</title>
+</head>
+
+<body>
+    <h1>
+        Reviews & Ratings Form
+    </h1>
+     <div class="container">        
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+      
+        <label for="review">Review:</label>
+        <textarea id="review" required></textarea>
+      
+        <label for="rating">Rating:</label>
+        <select id="rating" required>
+          <option value="">Select a rating</option>
+          <option value="5">5 stars</option>
+          <option value="4">4 stars</option>
+          <option value="3">3 stars</option>
+          <option value="2">2 stars</option>
+          <option value="1">1 star</option>
+        </select>
+      
+        <input type="submit" value="Submit">
+        <script>
+            const form = document.querySelector('form');
+            form.addActionListener('submit', function(event) {
+              event.preventDefault();
+          
+              // Retrieve form data
+              const name = document.getElementById('name').value;
+              const email = document.getElementById('email').value;
+              const review = document.getElementById('review').value;
+              const rating = document.getElementById('rating').value;
+          
+              // Perform further actions (e.g., send data to server)
+              // ...
+            });
+          </script>
+    
+      </form>
+      </div>
+      
+      
+      
+</body>
+
+</html>

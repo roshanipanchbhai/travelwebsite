@@ -1,0 +1,53 @@
+body{
+    background-image: url(image/payment.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.payment-section {
+    width: 400px;
+    height: 700px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 3rem;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color:aliceblue;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  
+  button[type="submit"] {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+  

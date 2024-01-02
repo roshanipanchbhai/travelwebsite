@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    /* background-color: darkmagenta; */
+   font-family: 'Times New Roman', Times, serif;
+   border-radius: 2%;
+   color: maroon;
+   font-weight: bold;
+   text-decoration: underline;
+   
+}
+h2{
+    font-variant: normal;
+}
+body{
+    background-color: slategrey;
+}
+.separate p{
+    font-size: 2rem;
+    
+}
+.separate{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.form-control{
+    padding-left: 2%;
+   display: grid;
+   grid-template-columns: repeat(2,2fr);
+   grid-template-rows: repeat(1,1fr);
+   font-size: larger;
+   font-weight: bold;
+}
+.form-control img{
+    padding-left: 70%;
+    
+
+}
+input[type=checkbox]{
+    border: none;
+    outline: 2px solid deeppink;
+}
+.note{
+    color: darkred;
+    font-size: 1rem;
+    padding-top: 3%;
+}
+button{
+background-color: purple;
+color: aliceblue;
+font-size: large;
+width: 100%;
+height: 5%;
+padding-top: 5%;
+}
